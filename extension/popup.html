@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="theme.css">
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <span class="logo"><img src="icons/icon32.png" width="20" height="20" alt="">Flow Observer</span>
+    <span class="pill" id="pill"><i></i><span id="pillText">Loading</span></span>
+  </header>
+
+  <section class="hero">
+    <div class="label hello" id="hello"></div>
+    <h1 id="headline">&nbsp;</h1>
+  </section>
+
+  <section class="card">
+    <div class="label">Focus · last 7 days</div>
+    <div class="big-row">
+      <span class="big" id="week">–</span>
+      <span class="delta" id="delta" hidden></span>
+      <span class="streak" id="streak"></span>
+    </div>
+    <div id="spark"></div>
+    <p class="msg" id="msg" hidden></p>
+  </section>
+
+  <section class="actions">
+    <button class="btn primary" id="viewStats">View stats</button>
+    <button class="btn" id="goDashboard">Go to dashboard</button>
+  </section>
+
+  <footer><span id="ver"></span><button class="link" id="syncNow">Sync now</button></footer>
+  <script src="lib.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

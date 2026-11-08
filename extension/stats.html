@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flow Observer · Stats</title>
+<link rel="icon" href="icons/icon32.png">
+<link rel="stylesheet" href="theme.css">
+<link rel="stylesheet" href="stats.css">
+</head>
+<body>
+<header class="hero">
+  <svg class="contours" viewBox="0 0 1200 420" preserveAspectRatio="none" aria-hidden="true" id="contours"></svg>
+  <nav>
+    <span class="logo"><img src="icons/icon48.png" width="22" height="22" alt="">Flow Observer</span>
+    <span class="nav-links">
+      <a href="https://freedom.to/dashboard" target="_blank">Freedom dashboard</a>
+      <button class="btn-sm" id="syncNow">Sync now</button>
+    </span>
+  </nav>
+  <div class="hero-body">
+    <span class="pill"><i></i><span id="sync">Loading</span></span>
+    <h1>When you actually focus,<br>read back to you.</h1>
+    <p>Your Freedom session history as a timeline. Nothing to log.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="banner" id="banner" hidden></div>
+  <div class="kpis" id="kpis"></div>
+
+  <section class="card">
+    <div class="card-h"><h2>Last 21 days</h2>
+      <div class="legend"><span><i class="sw focus"></i>Focus</span><span><i class="sw sleep"></i>Sleep</span></div>
+    </div>
+    <div id="timeline"></div>
+  </section>
+
+  <section class="card">
+    <div class="card-h"><h2>Focus per day</h2><span class="label">Sleep blocks not counted</span></div>
+    <div id="calendar"></div>
+  </section>
+
+  <div class="two">
+    <section class="card"><div class="card-h"><h2>Focus per week</h2></div><div id="weekly"></div></section>
+    <section class="card"><div class="card-h"><h2>By session name</h2></div><div id="byName"></div></section>
+  </div>
+
+  <section class="card">
+    <div class="card-h"><h2>Session types</h2><span class="label">What each Freedom session is for</span></div>
+    <div id="kinds" class="kinds"></div>
+  </section>
+
+  <p class="foot label">Data comes from your Freedom session history and stays in this browser · Not affiliated with Freedom</p>
+</main>
+<div class="tooltip" id="tip" hidden></div>
+<script src="lib.js"></script>
+<script src="stats.js"></script>
+</body>
+</html>
