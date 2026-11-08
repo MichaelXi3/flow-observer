@@ -48,7 +48,7 @@ Flow Observer for Freedom is an independent, free project. It is not made by, af
 
 **Small promo tile** (440×280): `promo-small-440x280.png`
 
-**Store icon** (128×128): `extension/icons/icon128.png`
+**Store icon** (128×128, artwork 96×96 with 16px transparent padding): `store-icon-128.png`
 
 **Official URL / Homepage:** https://github.com/MichaelXi3/flow-observer
 **Support URL:** https://github.com/MichaelXi3/flow-observer/issues
