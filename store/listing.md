@@ -84,7 +84,7 @@ Show the user charts and statistics of their own Freedom (freedom.to) focus-sess
   - I do not use or transfer user data for purposes that are unrelated to my item's single purpose.
   - I do not use or transfer user data to determine creditworthiness or for lending purposes.
 
-**Privacy policy URL:** the GitHub Pages URL of `docs/privacy-policy.html`, i.e. `https://michaelxi3.github.io/flow-observer/privacy-policy.html`.
+**Privacy policy URL:** https://github.com/MichaelXi3/flow-observer/blob/main/PRIVACY.md
 
 ## Distribution tab
 - Visibility: **Public** (or **Unlisted** for a quiet first release that only people with the link can install).

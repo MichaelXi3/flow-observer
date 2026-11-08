@@ -57,4 +57,4 @@ From the Chrome Web Store (pending review), or from source:
 
 An independent project, not made by, affiliated with or endorsed by Freedom (80pct Solutions). "Freedom" is their trademark and is used only to say which app this works with.
 
-[Privacy policy](docs/privacy-policy.html)
+[Privacy policy](PRIVACY.md)
