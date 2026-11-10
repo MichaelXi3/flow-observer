@@ -1,6 +1,6 @@
 # Flow Observer for Freedom
 
-**Passive focus stats for [Freedom](https://freedom.to) users.** A Chrome extension that reads your Freedom session history and shows when you actually focus: a 21-day timeline, a daily heatmap, weekly totals, and a one-click popup. You don't start timers or log anything.
+**Passive focus stats for [Freedom](https://freedom.to) users.** [Chrome Web Store](https://chromewebstore.google.com/detail/flow-observer-for-freedom/clhacjgpabbjcgobceplkihdgflodjjh) A Chrome extension that reads your Freedom session history and shows when you actually focus: a 21-day timeline, a daily heatmap, weekly totals, and a one-click popup. You don't start timers or log anything.
 
 ![Stats page](store/screenshot-1-stats.png)
 
@@ -41,7 +41,7 @@ store/            Chrome Web Store listing text and images
 
 ## Install
 
-From the Chrome Web Store (pending review), or from source:
+**[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/flow-observer-for-freedom/clhacjgpabbjcgobceplkihdgflodjjh)**, or from source:
 
 1. Clone this repo.
 2. Go to `chrome://extensions` and turn on **Developer mode**.
